@@ -1,36 +1,36 @@
 // https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/727/
 // Mine
-function removeDuplicates(nums: number[]): number {
+function removeDuplicates(arr: number[]): number {
   let idx = 0;
 
-  while (idx < nums.length) {
+  while (idx < arr.length) {
     const nextIdx = idx + 1;
-    let curr = nums[idx];
-    let next = nums[nextIdx];
+    let curr = arr[idx];
+    let next = arr[nextIdx];
 
     if (curr === next) {
-      nums.splice(idx, 1);
+      arr.splice(idx, 1);
     } else {
       idx++;
     }
   }
 
-  return nums.length;
+  return arr.length;
 }
 
 // Fastest
-function removeDuplicates2(nums: number[]): number {
-    if (nums.length === 0) {
+function removeDuplicates2(arr: number[]): number {
+    if (arr.length === 0) {
         return 0;
     }
 
     let i = 0;
-    for (let j = 0; j < nums.length;j++) {
-        if (nums[i] !== nums[j]) {
+    for (let j = 0; j < arr.length;j++) {
+        if (arr[i] !== arr[j]) {
             i++;
             // This is the key, we do not need to splice
             // just first i elemets in the right order
-            nums[i] = nums[j];
+            arr[i] = arr[j];
         }
     }
 
@@ -39,4 +39,4 @@ function removeDuplicates2(nums: number[]): number {
 
 let a = [1, 2, 2, 2, 3];
 removeDuplicates2(a);
-console.log(a);
+console.log('theworsd', a);
