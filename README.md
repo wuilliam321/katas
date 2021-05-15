@@ -1,2 +1,3 @@
 # katas
-Leet code and more practice
+ * Leet code and more practice
+ * Golang patterns
