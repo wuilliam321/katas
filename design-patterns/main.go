@@ -17,13 +17,17 @@ func Creational_FactoryMethod() {
 		panic("vehicle shoud be provided ./service [vehicle]")
 	}
 
-	vehicleType := os.Args[1]
+	aVehicle := os.Args[1]
 	var allowedTypes = map[string]bool{"bike": true, "car": true}
-	if !allowedTypes[vehicleType] {
-		panic(fmt.Sprintf("not allowed vehicleType %s", vehicleType))
+	if !allowedTypes[aVehicle] {
+		panic(fmt.Sprintf("not allowed vehicleType %s", aVehicle))
 	}
 
-	dc, err := factory_method.BuildDeliveryCreator(os.Args[1])
+	DeliverWith(aVehicle)
+}
+
+func DeliverWith(aVehicle string) {
+	dc, err := factory_method.BuildDeliveryCreator(aVehicle)
 	if err != nil {
 		panic("error on BuildDeliveryCreator")
 	}
