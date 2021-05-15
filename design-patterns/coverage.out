@@ -1,0 +1,16 @@
+mode: atomic
+github.com/wuilliam321/katas/design-patterns/creational/bike_creator.go:8.39,10.2 1 0
+github.com/wuilliam321/katas/design-patterns/creational/bike_creator.go:12.56,16.2 3 0
+github.com/wuilliam321/katas/design-patterns/creational/bike_creator.go:18.62,20.2 1 0
+github.com/wuilliam321/katas/design-patterns/creational/car.go:10.53,13.2 2 1
+github.com/wuilliam321/katas/design-patterns/creational/car.go:15.24,17.2 1 0
+github.com/wuilliam321/katas/design-patterns/creational/car_creator.go:8.38,10.2 1 0
+github.com/wuilliam321/katas/design-patterns/creational/car_creator.go:12.55,16.2 3 0
+github.com/wuilliam321/katas/design-patterns/creational/car_creator.go:18.61,20.2 1 0
+github.com/wuilliam321/katas/design-patterns/creational/factory_method.go:8.72,10.21 2 0
+github.com/wuilliam321/katas/design-patterns/creational/factory_method.go:11.14,12.31 1 0
+github.com/wuilliam321/katas/design-patterns/creational/factory_method.go:13.13,14.30 1 0
+github.com/wuilliam321/katas/design-patterns/creational/factory_method.go:15.10,16.48 1 0
+github.com/wuilliam321/katas/design-patterns/creational/use_cases.go:5.41,9.2 3 2
+github.com/wuilliam321/katas/design-patterns/creational/bike.go:9.40,12.2 2 1
+github.com/wuilliam321/katas/design-patterns/creational/bike.go:14.25,16.2 1 0
